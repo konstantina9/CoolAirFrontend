@@ -1,16 +1,25 @@
 <template>
+<div>
   <p class="homeText">
-    This is our Cool home page for our Cool api named CoolAirAPI
+    Project Name: CoolAir API
+  </p><br>
+  <p>
+    <strong>Course:</strong> Web Engineering
   </p>
-
+  <p><strong> Students:</strong></p>
+  <p> Michael Shubov</p>
+  <p> Theodoros Flevaris</p>
+  <p> Konstantina Lamprinou</p>
+</div>
 </template>
+
 <script>
 export default {
   name: 'Home'
 };
 </script>
 
-<!-- <style scoped>
+<style scoped>
 .homeText{
     font-size: 18px;
     color: black;
@@ -18,4 +27,4 @@ export default {
     position: relative;
     top:30px;
 }
-</style> -->
+</style>

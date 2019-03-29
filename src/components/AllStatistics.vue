@@ -45,14 +45,7 @@
       <b-form-text>
         {{ exampletxt1 }}
       </b-form-text>
-      <b-button v-on:click="getStats(airport_code,carrier_code,date_label)" variant="success" >Submit!</b-button>
-      <!-- printing them just to make sure that theyre being stored: -->
-      <div class="mt-2">Values entered: {{ airport_code }} , {{ carrier_code }}, {{ date_label }}, {{showstats}} </div>
-
-      <div v-for="(myvalue,index) in data.response.results">
-        {{ myvalue }}
-      </div>
-
+      <b-button variant="success" >Submit!</b-button>
     </div>
     <div v-else-if="selected == 'radio2'">
       <b-form>
